@@ -1,0 +1,25 @@
+{
+  "name": "@phylite/phy-websocket-relay",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phylite/phy-websocket-relay.git"
+  },
+  "author": "ashlin4010",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/phylite/phy-websocket-relay/issues"
+  },
+  "homepage": "https://github.com/phylite/phy-websocket-relay#readme",
+  "dependencies": {
+    "@phylite/phy-event-emitter": "^1.0.0",
+    "@phylite/phy-reconnecting-websocket": "^1.0.0",
+    "uuid": "^3.4.0",
+    "ws": "^7.2.1"
+  }
+}
